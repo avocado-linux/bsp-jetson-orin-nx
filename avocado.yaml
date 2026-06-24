@@ -4,7 +4,7 @@ supported_targets:
 
 extensions:
   avocado-bsp-jetson-orin-nx:
-    version: 2024.1.0
+    version: 0.1.0
     release: r0
     summary: Generic board support for Nvidia Jetson Orin NX SOM
     description: |
@@ -153,4 +153,4 @@ extensions:
         linux-firmware-rtl8822: '*'
 
 sdk:
-  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}-{{ env.AVOCADO_DISTRO_CHANNEL }}
+  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}
